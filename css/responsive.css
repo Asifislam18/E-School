@@ -1,0 +1,340 @@
+/* Responsive css code starts from here */ 
+ 
+/* 
+  /* 
+  Most of the low resoulation devices like: Galaxy Fold
+  */
+  @media (min-width: 279px) and (max-width: 319px){
+
+    /* CSS */
+.container{
+    width: 279px;
+}
+
+/* 279px to 319px css */
+.navbar-toggler-icon {
+    width: 0.9em;
+    height: 1.4em;
+}
+.navbar-toggler {
+    padding: 0.15rem 0.6rem;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+    margin-top: 10px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    margin: 0px 0px 0px 5px;
+}
+.main-menu .btn-success{
+    padding: 7px 22px;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+.banner{
+    padding: 30px 0px 60px;
+}
+.banner h1{
+     font-size: 30px;
+     line-height: 40px;
+}
+.banner p{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;   
+}
+.banner .btn-success{
+    padding: 9px 12px;
+    font-size: 12px;
+    margin: 5px 0px 40px;
+}
+.feature{
+    padding: 40px 0px;
+}
+.inner-feature{
+    margin-bottom: 20px;
+}
+.courses h2{
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0px 0px 30px;
+}
+.courses .card{
+    padding: 20px 20px 10px;
+    margin: 0px 0px 15px;
+}
+.courses .card-body h5{
+    font-size: 20px;
+    line-height: 30px;
+}
+.courses .card .card-body p{
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0px 0px 10px;
+}
+.courses .card .card-body .btn-success{
+    padding: 7px 12px;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+}
+.courses .card .card-body .desc{
+    font-size: 10px;
+    line-height: 20px;
+}
+.testimonial{
+    padding: 40px 0px 50px;
+}
+.testimonial h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 40px;
+}
+.testimonial .img-round{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.testimonial p{
+    font-size: 8px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+.footer-widget{
+    padding: 0px 0px 30px;
+}
+.footer-widget p{
+    font-size: 11px;
+    line-height: 21px;
+}
+.footer-widget h6{
+    margin: 10px 0px 5px;
+}
+.footer-widget ul a{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+}
+.copyright p{
+    font-size: 14px;
+    line-height: 24px;
+}
+  }
+
+  /* 
+  Most of the Smartphones Mobile (Potrait)
+  */
+  @media (min-width: 320px) and (max-width: 480px){
+
+    /* CSS */
+.container{
+    width: 320px;
+}
+/* 320px to 480px css */
+.navbar-toggler-icon {
+    width: 1.0em;
+    height: 1.5em;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.70rem;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+    margin-top: 10px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    margin: 0px 0px 0px 10px;
+}
+.main-menu .btn-success{
+    padding: 8px 22px;
+    margin: 15px 0px 0px 5px;
+}
+.banner{
+    padding: 50px 0px 60px;
+}
+.banner h1{
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0px 0px 15px;
+}
+.banner p{
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 500;
+}
+.banner .btn-success{
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 5px 0px 50px;
+}
+.feature{
+    padding: 50px 0px 30px;
+}
+.inner-feature{
+    margin-bottom: 20px;
+}
+.courses h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 40px;
+}
+.courses .card{
+    padding: 20px 20px 10px;
+}
+.courses .card .card-body .btn-success{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 10px 0px 0px;
+}
+.courses .card .card-body .desc{
+    font-size: 12px;
+    line-height: 22px;
+}
+.testimonial{
+    padding: 40px 0px 60px;
+}
+.testimonial h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 40px;
+}
+.testimonial .img-round{
+    width: 75px;
+    height: 75px;
+    margin-top: 8px;
+}
+.testimonial p{
+    font-size: 9px;
+    line-height: 19px;
+    font-weight: 500;
+    margin: 0px 0px 0px 8px;
+}
+.footer-widget{
+    padding: 0px 0px 40px;
+}
+.footer-widget p{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.footer-widget h6{
+    font-size: 17px;
+    line-height: 27px;
+    margin: 0px 0px 6px;
+}
+.footer-widget ul a{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+}
+.copyright p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+  }
+ /* 
+  Low Resoultion Tabltes,Mobile Smartphones (landscape)
+  */
+  @media (min-width: 481px) and (max-width: 767px){
+
+    /* CSS */
+
+.container{
+    width: 481px;
+}
+.col-lg-3{
+    width: 50%;
+    float: left;
+}
+
+
+/* 481px to 767px css */
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+    margin: 10px 0px 0px 15px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    margin: 0px 0px 0px 15px;
+}
+.main-menu .btn-success{
+    padding: 10px 30px;
+    margin: 20px 0px 0px 10px;
+}
+.banner{
+    padding: 60px 0px;
+}
+.banner h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0px 0px 15px;
+}
+.banner p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.banner .btn-success{
+    padding: 10px 25px;
+    font-size: 15px;
+    margin: 10px 0px 40px;
+}
+.feature{
+    padding: 60px 0px 40px;
+}
+.inner-feature{
+    margin-bottom: 20px;
+}
+.inner-feature h4{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+}
+.courses h2{
+    font-size: 35px;
+    line-height: 45px;
+}
+.courses .card{
+    width: 95%;
+    padding: 30px 30px 15px;
+    margin: 0px 0px 35px 10px;
+}
+.courses .card p{
+    margin: 0px 0px 25px;
+}
+.courses .card .card-body .btn-success{
+    padding: 9px 23px;
+    margin: 0px 0px 10px;
+}
+.testimonial h2{
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0px 0px 40px;
+}
+.testimonial .img-round {
+    width: 100px;
+    height: 100px;
+    margin-top: 8px;
+}
+.testimonial p{
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0px 0px 0px;
+}
+.footer{
+    padding: 60px 0px 30px;
+}
+.footer-widget p{
+    margin-bottom: 40px;
+}
+.footer-widget h6{
+    font-size: 17px;
+    line-height: 27px;
+    margin: 15px 0px 5px;
+}
+.footer-widget ul a{
+    font-size: 14px;
+    line-height: 24px;
+}
+.copyright p{
+    font-size: 15px;
+    line-height: 25px;
+}
+  }
